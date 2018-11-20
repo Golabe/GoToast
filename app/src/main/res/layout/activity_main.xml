@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:text="原生Toast"
+            android:id="@+id/mBtnToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    <Button
+            android:text="自定义Toast"
+            android:id="@+id/mBtnGoToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:text="Failed Toast"
+            android:id="@+id/mBtnFailed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:text="Success Toast"
+            android:id="@+id/mBtnSuccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
