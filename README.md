@@ -1,4 +1,5 @@
 # GoToast
+<div align="center"><image src="https://github.com/Golabe/GoToast/blob/master/gif/GIF.gif?raw=true" width="400"/></div>
 ### Gradle 
 ```xml
 implementation 'com.github.golabe.GoToast:library:1.0.0'
@@ -20,3 +21,4 @@ GoToast.create(this,"welcome").show()
   ```java
     GoToast.create(this,"",bgColor,textColor ,leftResId ,rightResId,duration ).show()
     ```
+#### 图标颜色跟随文字颜色，所以尽量使用纯色图标
