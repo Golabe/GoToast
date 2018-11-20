@@ -1,5 +1,7 @@
 # GoToast
+
 <div align="center"><image src="https://github.com/Golabe/GoToast/blob/master/gif/GIF.gif?raw=true" width="400"/></div>
+
 ### Gradle 
 ```xml
 implementation 'com.github.golabe.GoToast:library:1.0.0'
