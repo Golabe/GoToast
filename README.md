@@ -22,5 +22,5 @@ GoToast.create(this,"welcome").show()
   - 自定义
   ```java
     GoToast.create(this,"",bgColor,textColor ,leftResId ,rightResId,duration ).show()
-    ```
+   
 #### 图标颜色跟随文字颜色，所以尽量使用纯色图标
