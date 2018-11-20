@@ -1,4 +1,4 @@
-# GoToast
+# GoToast Kotlin 版本
 
 <div align="center"><image src="https://github.com/Golabe/GoToast/blob/master/gif/GIF.gif?raw=true" width="400"/></div>
 
