@@ -23,4 +23,3 @@ GoToast.create(this,"welcome").show()
   - 自定义
   ```java
     GoToast.create(this,"",bgColor,textColor ,leftResId ,rightResId,duration ).show()
-    ```
