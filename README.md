@@ -6,6 +6,7 @@
 ```xml
 implementation 'com.github.golabe.GoToast:library:1.0.0'
 ```
+### 图标颜色跟随文字颜色，所以尽量使用纯色图标
 ### Usage
 - 简单用法
 ```java
@@ -23,4 +24,3 @@ GoToast.create(this,"welcome").show()
   ```java
     GoToast.create(this,"",bgColor,textColor ,leftResId ,rightResId,duration ).show()
     ```
-#### 图标颜色跟随文字颜色，所以尽量使用纯色图标
