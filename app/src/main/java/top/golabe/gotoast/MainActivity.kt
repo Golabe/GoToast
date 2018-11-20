@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         mBtnGoToast.setOnClickListener {
-            GoToast.create(this,"welcome").show()
+            GoToast.create(this,"welcome",leftResId = R.drawable.ic_prompt,rightResId = R.drawable.ic_prompt).show()
         }
         mBtnToast.setOnClickListener {
             Toast.makeText(this,"AAA",Toast.LENGTH_LONG)
